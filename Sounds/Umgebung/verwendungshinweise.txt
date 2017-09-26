@@ -1,0 +1,3 @@
+Hey Frank, verwende ingame-sound.wav für die Umgebung.
+
+Random und Random2 zufällig einstreuen, evtl bei dem Betreten von einigen bestimmten Abteilen.
