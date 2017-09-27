@@ -14,6 +14,8 @@ public class MiniMap : MonoBehaviour {
 	public Light holoLight;
 	public float holoLightIntensity;
 
+	GameObject player;
+
 	void BuildMap(Transform modul){
 //		Debug.Log (modul.name);
 		GameObject map_modul = new GameObject ();
@@ -33,7 +35,8 @@ public class MiniMap : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-	GameObject map = GameObject.Find ("GameManager");
+		GameObject map = GameObject.Find ("GameManager");
+	player = GameObject.Find ("Player");
 //		foreach(Transform modul in map.transform){
 //			if(modul.name.Contains("group")){
 //				foreach (Transform g_modul in modul.transform) {
@@ -77,18 +80,24 @@ public class MiniMap : MonoBehaviour {
 			mapPlayer_.GetComponent<MeshRenderer> ().enabled = true;
 			holoLight.intensity = holoLightIntensity;
 		}
-		
+
 	}
 
-	
+
 	// Update is called once per frame
 	void Update () {
-		Vector3 position = GameObject.Find ("Player").transform.position;
+		Vector3 position = player.transform.position;
 		mapPlayer_.transform.localPosition = Vector3.Scale (position, mapPlayer_.transform.localScale *.5f);
 
 
 //		transform.localRotation = Quaternion.Euler( GameObject.Find ("Player").transform.rotation.eulerAngles * -1f);
-
+// transform.rotation = Quaternion.Lerp(player.transform.localRotation, transform.rotation, .9f);
+	transform.eulerAngles = new Vector3(
+		transform.rotation.x,
+		player.transform.rotation.y,
+			transform.rotation.z
+	);
+	Debug.Log(transform.rotation);
 	}
 
 
