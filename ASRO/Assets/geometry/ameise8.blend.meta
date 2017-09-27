@@ -1,0 +1,252 @@
+fileFormatVersion: 2
+guid: 9662659b34b254b9d93c730d52e7b94e
+timeCreated: 1506450088
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Armature
+    100004: ass
+    100006: ass_001
+    100008: ass_002
+    100010: ass_003
+    100012: chest
+    100014: head
+    100016: hip
+    100018: leg00_L
+    100020: leg00_R
+    100022: leg01_L
+    100024: leg01_R
+    100026: leg02_L
+    100028: leg02_R
+    100030: leg03_L
+    100032: leg03_R
+    100034: leg0IK_L
+    100036: leg0IK_R
+    100038: leg10_L
+    100040: leg10_R
+    100042: leg11_L
+    100044: leg11_R
+    100046: leg12_L
+    100048: leg12_R
+    100050: leg13_L
+    100052: leg13_R
+    100054: leg20_L
+    100056: leg20_R
+    100058: leg21_L
+    100060: leg21_R
+    100062: leg22_L
+    100064: leg22_R
+    100066: leg23_L
+    100068: leg23_R
+    100070: leg_000
+    100072: palp0_L
+    100074: palp0_R
+    100076: palp1_L
+    100078: palp1_R
+    100080: palp2_L
+    100082: palp2_R
+    100084: palp3_L
+    100086: palp3_R
+    100088: palp4_L
+    100090: palp4_R
+    100092: root
+    100094: tooth_L
+    100096: tooth_R
+    400000: //RootNode
+    400002: Armature
+    400004: ass
+    400006: ass_001
+    400008: ass_002
+    400010: ass_003
+    400012: chest
+    400014: head
+    400016: hip
+    400018: leg00_L
+    400020: leg00_R
+    400022: leg01_L
+    400024: leg01_R
+    400026: leg02_L
+    400028: leg02_R
+    400030: leg03_L
+    400032: leg03_R
+    400034: leg0IK_L
+    400036: leg0IK_R
+    400038: leg10_L
+    400040: leg10_R
+    400042: leg11_L
+    400044: leg11_R
+    400046: leg12_L
+    400048: leg12_R
+    400050: leg13_L
+    400052: leg13_R
+    400054: leg20_L
+    400056: leg20_R
+    400058: leg21_L
+    400060: leg21_R
+    400062: leg22_L
+    400064: leg22_R
+    400066: leg23_L
+    400068: leg23_R
+    400070: leg_000
+    400072: palp0_L
+    400074: palp0_R
+    400076: palp1_L
+    400078: palp1_R
+    400080: palp2_L
+    400082: palp2_R
+    400084: palp3_L
+    400086: palp3_R
+    400088: palp4_L
+    400090: palp4_R
+    400092: root
+    400094: tooth_L
+    400096: tooth_R
+    2100000: Ameise
+    4300000: leg_000
+    7400000: Default Take
+    7400002: Fight
+    7400004: FightARB
+    7400006: Walk
+    9500000: //RootNode
+    13700000: leg_000
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Ameise
+    second: {fileID: 2100000, guid: 8a6565b0282484e89b2809e5d86140c0, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: FightARB
+      takeName: FightARB
+      firstFrame: -1
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walk
+      takeName: Walk
+      firstFrame: -1
+      lastFrame: 22
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: root
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

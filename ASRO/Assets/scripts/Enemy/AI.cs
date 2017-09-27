@@ -23,11 +23,15 @@ public class AI : MonoBehaviour
 	private AudioSource ac;
 
 	NavMeshAgent agent;
+  Animator anim;
 
     // Use this for initialization
     void Start()
     {
 		ac = GetComponent<AudioSource> ();
+    anim = GetComponent<Animator>();
+
+    anim.SetTrigger("walk");
 
 		agent = GetComponent<NavMeshAgent> ();
 		target = GameObject.FindGameObjectsWithTag("Player")[0].transform;
@@ -53,6 +57,9 @@ public class AI : MonoBehaviour
         if (distance < attackDistance)
         {
             attack();
+            anim.SetTrigger("fight");
+        }else{
+          anim.SetTrigger("walk");
         }
 
 
