@@ -1,9 +1,9 @@
 fileFormatVersion: 2
 guid: 9662659b34b254b9d93c730d52e7b94e
-timeCreated: 1506450088
+timeCreated: 1507034800
 licenseType: Free
 ModelImporter:
-  serializedVersion: 22
+  serializedVersion: 21
   fileIDToRecycleName:
     100000: //RootNode
     100002: Armature
@@ -109,19 +109,13 @@ ModelImporter:
     7400002: Fight
     7400004: FightARB
     7400006: Walk
+    7400008: AmeiseTod
     9500000: //RootNode
     13700000: leg_000
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Ameise
-    second: {fileID: 2100000, guid: 8a6565b0282484e89b2809e5d86140c0, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
-    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -134,7 +128,6 @@ ModelImporter:
     animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
-    importAnimatedCustomProperties: 0
     animationCompression: 1
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -144,8 +137,8 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: FightARB
-      takeName: FightARB
+      name: AmeiseTod
+      takeName: AmeiseTod
       firstFrame: -1
       lastFrame: 39
       wrapMode: 0
@@ -154,7 +147,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 1
+      loopTime: 0
       loopBlend: 1
       loopBlendOrientation: 0
       loopBlendPositionY: 0

@@ -12,12 +12,15 @@ public class EnemyEnergy : MonoBehaviour {
 	private AudioSource ac;
 
 	private bool readyToDie = false;
-
+    Animator animator;
+    float fullEnergy;
 
 
 	void Start(){
 //		text = gameObject.AddComponent<TextMesh> ();
 		ac = GetComponent<AudioSource> ();
+        animator = GetComponent<Animator>();
+        fullEnergy = energy;
 	}
 
 	void Update(){
@@ -29,6 +32,7 @@ public class EnemyEnergy : MonoBehaviour {
 				readyToDie = true;
 			}
 		}
+        animator.SetFloat("life", energy/fullEnergy);
 	}
 
 
